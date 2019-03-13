@@ -5,6 +5,7 @@ return [
     ['class' => 'yii\rest\UrlRule','controller' => 'photo'],
     ['class' => 'yii\rest\UrlRule','controller' => 'versus'],
     ['class' => 'yii\rest\UrlRule','controller' => 'facemash'],
+    '<controller:site>/<action:index>' => 'site/index',
     '<controller:user>/<action:add-girl>' => 'user/add-girl',
     '<controller:versus>/<action:set-new-like>' => 'versus/set-new-like',
     '<controller:photo>/<action:get-photos>' => 'photo/get-photos',
